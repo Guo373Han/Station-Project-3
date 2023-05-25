@@ -1,6 +1,6 @@
 import time
 
-my_time = int(input("Enter the time in seconds: "))
+my_time = int(input("Enter the time in seconds, which should be a positive number: "))
 
 for x in range(my_time, 0, -1):
     seconds = x % 60
